@@ -1,3 +1,20 @@
 conda create -p venv python==3.8 -y
 cls
 conda activate D:\mlops_project\venv
+
+echo "# mlops_project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git status
+git branch -M main
+git remote add origin https://github.com/mohameda97/mlops_project.git
+
+git config --global user.name
+git config --global user.email
+git push -u origin main
+
+git remote -v
+
+
+git pull
